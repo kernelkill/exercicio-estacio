@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de itens</title>
+    
+</head>
+<body bgcolor="#ffe4c4">
+<div id="123" style="width: 600px">
+<form method="post" id="Cadastro">
+    <fieldset>
+        <p>Campus:
+        <select>
+            <option value="Camp">Tv Morena</option>
+        </select></p>
+        <p>Tipo do item: <select name="titem">
+            <option value="0">Selecione uma Opção</option>
+            <option value="labA">Laboratório A</option>
+            <option value="labB">Laboratório B</option>
+            <option value="labC">Laboratório C</option>
+            <option value="labD">Laboratório D</option>
+            <option value="datashow">Datashow</option>
+        </select></p>
+        <p>Situação: <select name="tSit">
+            <option value="nd">Selecione uma Opção</option>
+            <option value="Disp"n>Disponível</option>
+            <option value="Ind">Indisponível</option>
+            <option value="Manu">Em Manutenção</option>
+
+        </select></p>
+        <p>Nome: <input type="text"name="tNome" id="cNome" size="20"></p>
+        <p>Codigo: <input type="text" name="tdescricao" id="cdescricao" size="50" maxlenght="50"></p>
+        </fieldset>
+    <button type="submit">Cancelar</button><button type="submit">Salvar</button>
+
+</form>
+</div>
+<table dir="ltr" width="600" border="1"
+       summary="purpose/structure for speech output">
+    <caption>Lista de Itens
+    </caption>
+        <thead>
+    <tr>
+        <th scope="col">Codigo</th>
+        <th scope="col">Item</th>
+        <th scope="col">Situação</th>
+    </tr>
+    </thead>
+    <tfoot>
+    <tr>
+        <td>125</td>
+        <td>Laboratório C</td>
+        <td>Em manutenção</td>
+    </tr>
+    </tfoot>
+    <tbody>
+    <tr>
+        <td>123</td>
+        <td>Laboratório A</td>
+        <td>Disponivel</td>
+    </tr>
+    <tr>
+        <td>124</td>
+        <td>Laboratório B</td>
+        <td>Indisponível</td>
+    </tr>
+    </tbody>
+</table>
+<button type="submit">Excluir item</button>
+
+</body>
+</html>
+
+
+
